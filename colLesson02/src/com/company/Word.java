@@ -21,9 +21,9 @@ public class Word {
         this.meaning = meaning;
     }
 
-    public void toString(String word,String meaning) {
-        System.out.println("単語:"+ word +" 意味:"+ meaning);
+    @Override
+    public String toString() {
+        return "単語:"+ this.word +" 意味:"+ this.meaning;
     }
-
 
 }

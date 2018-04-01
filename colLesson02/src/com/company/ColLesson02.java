@@ -10,6 +10,8 @@ public class ColLesson02 {
         // コマンドラインから入力
         System.out.println("わからない単語とその意味をスペースで区切って入力して下さい。");
 
+        //テスト用
+        //for(int i=0; i<3;i++){
         for(int i=0; i<10;i++){
             Scanner sc  = new Scanner(System.in);
             String input = sc.nextLine();
@@ -28,7 +30,8 @@ public class ColLesson02 {
             }else{
                 sc.close();
                 for(int j=0; j<i; j++){
-                    words[j].toString(words[j].getWord(),words[j].getMeaning());
+//                    words[j].toString(words[j].getWord(),words[j].getMeaning());
+                    System.out.println(words[j].toString());
                 }
                 System.out.println(i + "件、登録しました。");
                 break;
