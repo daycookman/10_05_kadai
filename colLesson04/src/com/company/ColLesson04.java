@@ -34,7 +34,6 @@ public class ColLesson04 {
     }
 }
 
-
 //public class ColLesson04 {
 //    public static void main(String[] args) {
 //        // Wordクラスのインスタンス配列

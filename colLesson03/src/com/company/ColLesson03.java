@@ -36,7 +36,6 @@ public class ColLesson03 {
     }
 }
 
-
 //        for(int i=0; i<5;i++) {
 //            Scanner sc = new Scanner(System.in);
 //            String input = sc.nextLine();
